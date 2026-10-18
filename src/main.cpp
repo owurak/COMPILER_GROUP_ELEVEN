@@ -6,7 +6,7 @@ The logic in this file was written by Shalom Mantey Addison.
 #include <iostream> 
 #include <string> 
 #include <vector> 
-#include "lexer.h"
+#include "Lexer/lexer.h"
 
 using namespace std;
 
