@@ -1,11 +1,10 @@
 /*
 Integration note:
-This entry point was replaced because the previous main.cpp used a different
-scanner interface that was incompatible with the agreed Lexer/getNextToken API.
-Integration and testing performed by Group Member 1.
+The previous main.cpp used a scanner interface incompatible with the agreed
+Lexer/getNextToken API. This file was replaced and tested by Member 1.
 
 AI disclosure: AI assistance was used for entry-point boilerplate only.
-The integration was reviewed, tested, and completed by the member.
+The integration was reviewed and tested by the member.
 */
 
 #include <fstream>
