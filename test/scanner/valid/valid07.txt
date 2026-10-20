@@ -1,0 +1,3 @@
+/* Block coomment
+   across two lines */
+int number = 10;

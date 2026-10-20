@@ -1,0 +1,2 @@
+_value1 = 20;
+result_2 = _value1 * 5;

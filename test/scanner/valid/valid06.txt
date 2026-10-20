@@ -1,0 +1,2 @@
+// Line comment 
+int age = 23;
