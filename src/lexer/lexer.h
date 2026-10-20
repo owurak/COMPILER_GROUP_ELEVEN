@@ -1,3 +1,6 @@
+// AI disclosure: AI was used for conceptual debugging guidance.
+// The member reviewed and implemented the interface changes.
+
 #pragma once
 #include <string>
 #include "token.h"
@@ -14,6 +17,9 @@ private:
     size_t pos;
     int line;
     int column;
+    bool unterminatedComment;   // set when /* has no closing */
+    int commentStartLine;       // where the unfinished /* began
+    int commentStartColumn;
     char peek() const;
     char advance();
     void skipWhitespaceAndComments();
