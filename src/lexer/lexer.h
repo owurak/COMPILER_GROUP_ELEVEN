@@ -2,6 +2,7 @@
 // The member reviewed and implemented the interface changes.
 
 #pragma once
+#include <cstddef>
 #include <string>
 #include "token.h"
 
